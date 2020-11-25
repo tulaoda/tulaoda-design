@@ -1,6 +1,6 @@
 # .npmignore
 example
-src
+components
 .eslintignore
 .eslintrc.js
 .gitignore

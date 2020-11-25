@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { TitleWithEditor } from '../../../src'
+import { TitleWithEditor } from '../../../components'
 
 import './index.scss'
 

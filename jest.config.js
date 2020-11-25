@@ -5,7 +5,7 @@ module.exports = {
   moduleNameMapper: {
     '\\.(css|scss)$': 'identity-obj-proxy'
   },
-  roots: ['<rootDir>/src'],
+  roots: ['<rootDir>/components'],
   timers: 'fake',
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$',
   transform: {
@@ -15,6 +15,6 @@ module.exports = {
   // Setup Enzyme
   'snapshotSerializers': ['enzyme-to-json/serializer'],
   'setupFilesAfterEnv': [
-    '<rootDir>/src/setupEnzyme.ts',
+    '<rootDir>/components/setupEnzyme.ts',
   ]
 }

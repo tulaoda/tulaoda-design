@@ -1,18 +1,18 @@
 {
-  "name": "@mlamp/title-with-editor",
+  "name": "rc-tulaoda",
   "version": "1.0.0-alpha.0",
-  "description": "当前组件的简单描述.....",
+  "description": "兔老大的个人组件库",
   "main": "build/index.js",
   "types": "dist/wangEditor.d.ts",
   "scripts": {
-    "eslint": "eslint --ext .tsx,.ts --fix ./src",
+    "eslint": "eslint --ext .tsx,.ts --fix ./components",
     "prerelease": "webpack --config webpack.build.js -p --bail",
     "release": "standard-version",
     "postrelease": "git push --follow-tags origin develop",
     "test": "jest --watchAll",
     "build": " webpack --config webpack.build.js -p --bail && npm run tsc",
     "start": "webpack-dev-server --open chrome --config webpack.dev.js --mode development",
-    "tsc": "tsc src/*.ts src/**/*.tsx  --allowSyntheticDefaultImports true -d --lib es6,dom --experimentalDecorators true -t es6 --moduleResolution node --jsx react --outDir es --allowJs true"
+    "tsc": "tsc components/*.ts components/**/*.tsx  --allowSyntheticDefaultImports true -d --lib es6,dom --experimentalDecorators true -t es6 --moduleResolution node --jsx react --outDir es --allowJs true"
   },
   "repository": {
     "type": "git",
@@ -95,6 +95,7 @@
   "dependencies": {
     "antd": "^4.4.1",
     "cron-parser": "^2.18.0",
+    "dumi": "^1.0.36",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },

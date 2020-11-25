@@ -5,7 +5,7 @@ const common = require('./webpack.common.js');
 
 
 module.exports = merge(common, {
-    entry: './src/index.ts',
+    entry: './components/index.ts',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js',
