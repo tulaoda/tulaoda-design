@@ -5,6 +5,7 @@
   "main": "build/index.js",
   "types": "dist/wangEditor.d.ts",
   "scripts": {
+    "docs": "npx dumi dev",
     "eslint": "eslint --ext .tsx,.ts --fix ./components",
     "prerelease": "webpack --config webpack.build.js -p --bail",
     "release": "standard-version",
