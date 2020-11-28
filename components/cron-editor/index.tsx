@@ -10,7 +10,7 @@ import Month from './components/Month'
 import Second from './components/Second'
 import Week from './components/Week'
 import Year from './components/Year'
-import './css/index.less'
+import './css/index.scss'
 import CronParse from './utils/parse-lib'
 const { TabPane } = Tabs
 const { Panel } = Collapse

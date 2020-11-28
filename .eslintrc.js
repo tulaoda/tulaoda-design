@@ -36,7 +36,14 @@ module.exports = {
         '@typescript-eslint/interface-name-prefix': 'off',
         '@typescript-eslint/no-empty-interface': 'off',
         'react/prop-types': 'off',
-        'react/display-name': 'off'
+        'react/display-name': 'off',
+        "react/self-closing-comp": [
+            "error",
+            {
+                "component": true,
+                "html": true
+            }
+        ]
     },
     settings: {
         'import/resolver': {

@@ -3,7 +3,7 @@
         "allowJs": true,
         "allowSyntheticDefaultImports": true,
         "jsx": "react",
-        "module": "commonjs",                     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */
+        "module": "es6",
         "moduleResolution": "node",
         "noEmit": true,
         "resolveJsonModule": true,
@@ -11,10 +11,22 @@
         "sourceMap": true,
         "target": "es5",
         "declaration": true,
-        "outDir": "dist",
+        "baseUrl": ".",
+        "typeRoots": ["node_modules/@types", "types"],
+        "paths": {
+            "@/*": ["./*"],
+            "api/*": ["api/*"],
+            "components/*": ["components/*"],
+            "plugins/*": ["plugins/*"],
+            "config/*": ["config/*"],
+            "constants/*": ["constants/*"],
+            "hooks/*": ["hooks/*"],
+            "layout/*": ["layout/*"],
+            "theme/*": ["theme/*"],
+            "utils/*": ["utils/*"],
+            "assets/*": ["assets/*"],
+            "css/*": ["css/*"],
+            "lib/*": ["lib/*"]
+        }
     },
-    "include": [
-        "components/**/*ts/**/*",
-        "example/**/*",
-    ],
 }

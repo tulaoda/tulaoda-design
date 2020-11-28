@@ -27,13 +27,13 @@ export default class Year extends PureComponent {
 
     render() {
         const {
-            year: { type, start, end },
+            year: { type, start, end }
         } = this.props
         return (
             <div>
                 <Group
                     value={type}
-                    onChange={(e) => {
+                    onChange={e => {
                         this.changeParams('type', e.target.value)
                     }}
                     defaultValue=""
@@ -51,8 +51,8 @@ export default class Year extends PureComponent {
                                 min={new Date().getFullYear()}
                                 value={start}
                                 placeholder="年"
-                                formatter={(value) => value.toString().replace(/[^\d\.]/g, '')}
-                                onChange={(value) => {
+                                formatter={value => value.toString().replace(/[^\d\.]/g, '')}
+                                onChange={value => {
                                     if (isNumber(value) && Number(value) >= new Date().getFullYear()) {
                                         this.changeParams('start', value)
                                     } else {
@@ -66,8 +66,8 @@ export default class Year extends PureComponent {
                                 min={new Date().getFullYear() + 1}
                                 value={end}
                                 placeholder="年"
-                                formatter={(value) => value.toString().replace(/[^\d\.]/g, '')}
-                                onChange={(value) => {
+                                formatter={value => value.toString().replace(/[^\d\.]/g, '')}
+                                onChange={value => {
                                     if (isNumber(value) && Number(value) >= new Date().getFullYear() + 1) {
                                         this.changeParams('end', value)
                                     } else {

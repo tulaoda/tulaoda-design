@@ -7,6 +7,9 @@ const Master = (): ReactElement => (
             <li>
                 <Link to="/basic">Basic Example</Link>
             </li>
+            <li>
+                <Link to="/cron">Cron</Link>
+            </li>
         </ul>
     </div>
 )

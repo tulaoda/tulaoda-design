@@ -4,6 +4,7 @@ import { Route, Switch, Redirect, withRouter } from 'react-router-dom'
 
 import Master from '../master'
 import BasicExample from '../basic'
+import Cron from '../cron'
 
 import './index.scss'
 
@@ -14,10 +15,11 @@ const Root = (props): React.ReactElement => {
 
     return (
         <div className="root-container">
-            <h1>Example of TitleWithEditor</h1>
+            <h1>组件演示</h1>
             <Switch>
                 <Route path="/home" component={Master} />
                 <Route path="/basic" component={BasicExample} />
+                <Route path="/cron" component={Cron} />
                 <Route path={url} exact render={(): React.ReactNode => <Redirect to="/home" />} />
             </Switch>
         </div>
