@@ -1,2 +1,3 @@
 import TitleWithEditor from './title-with-editor';
-export { TitleWithEditor };
+import CronEditor from './cron-editor';
+export { TitleWithEditor, CronEditor };
