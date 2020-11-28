@@ -1,7 +1,7 @@
 ---
 hero:
-  title: my-app1
-  desc: my-app1 site example
+  title: 兔老大的个人组件库
+  desc: 组件库开发 & 积累
   actions:
     - text: Getting Started
       link: /components

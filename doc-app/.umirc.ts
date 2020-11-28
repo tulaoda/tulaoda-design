@@ -4,7 +4,7 @@ const productionGzipExtensions = /\.(js|css|json|txt|html|ico|svg)(\?.*)?$/i
 
 export default defineConfig({
   description: '一个用G6做的ER图工具，最终目标是想做成在线版的 powerdesigner',
-  title: 'web-pdm',
+  title: 'tulaoda-design',
   favicon: 'http://zyking.xyz/logo.png',
   logo: 'http://zyking.xyz/logo.png',
   outputPath: 'docs-dist',
