@@ -13,7 +13,8 @@
     "test": "jest --watchAll",
     "build": " webpack --config webpack.build.js -p --bail && npm run tsc",
     "start": "webpack-dev-server --open chrome --config webpack.dev.js --mode development",
-    "tsc": "tsc components/*.ts components/**/*.tsx  --allowSyntheticDefaultImports true -d --lib es6,dom --experimentalDecorators true -t es6 --moduleResolution node --jsx react --outDir es --allowJs true"
+    "tsc": "tsc components/*.ts components/**/*.tsx  --allowSyntheticDefaultImports true -d --lib es6,dom --experimentalDecorators true -t es6 --moduleResolution node --jsx react --outDir es --allowJs true",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -70,6 +71,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.3",
     "file-loader": "^4.1.0",
+    "git-cz": "^4.7.5",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^4.2.5",
     "identity-obj-proxy": "^3.0.0",
@@ -102,8 +104,7 @@
     "react-dom": "^16.9.0"
   },
   "husky": {
-    "hooks": {
-    }
+    "hooks": {}
   },
   "lint-staged": {
     "*.{ts,tsx}": [
