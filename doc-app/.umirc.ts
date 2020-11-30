@@ -17,30 +17,28 @@ export default defineConfig({
   // mpa: {},
   // esbuild: {},
   menus: {
-    // '/guide': [
-    //   {
-    //     title: '介绍',
-    //     children: ['guide/index', 'guide/getting-started'],
-    //   },
-    //   {
-    //     title: '模型定义',
-    //     children: ['guide/model', 'guide/relation'],
-    //   },
-    //   {
-    //     title: '工具栏',
-    //     children: ['guide/toolbar'],
-    //   },
-    //   {
-    //     title: '其他',
-    //     children: ['guide/migration', 'guide/faq', 'guide/next', 'guide/ddd'],
-    //   },
-    // ],
+    '/guide': [
+      {
+        title: '介绍',
+        children: ['guide/index', 'guide/getting-started'],
+      },
+      {
+        title: '模型定义',
+        children: ['guide/model', 'guide/relation'],
+      },
+      {
+        title: '工具栏',
+        children: ['guide/toolbar'],
+      },
+      {
+        title: '其他',
+        children: ['guide/migration', 'guide/faq', 'guide/next', 'guide/ddd'],
+      },
+    ],
   },
   navs: [
     null,
-    //http://localhost:8001
-    { title: 'API', path: '/typedoc/' },
-    { title: 'GitHub', path: 'https://github.com/lusess123/web-pdm' },
+    { title: 'GitHub', path: 'https://github.com/tulaoda/tulaoda-design' },
     {
       title: '更新日志',
       path:

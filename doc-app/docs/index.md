@@ -1,10 +1,11 @@
 ---
 hero:
   title: 兔老大的个人组件库
+  order: 10
   desc: 组件库开发 & 积累
   actions:
     - text: Getting Started
-      link: /components
+      link: /guide/getting-started
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: Feature 1
