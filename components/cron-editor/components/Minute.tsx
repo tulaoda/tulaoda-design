@@ -8,7 +8,13 @@ import React, { PureComponent } from 'react'
 import { isNumber } from '../utils/index'
 const { Group } = Radio
 
-export default class Minute extends PureComponent {
+interface MinuteIProps {
+    minute: Record<string, any>
+    onChange: (state: object) => void
+}
+
+export default class Minute extends PureComponent<MinuteIProps, any> {
+    minuteOptions: any[]
     constructor(props) {
         super(props)
         this.formatMinuteOptions()
@@ -117,7 +123,7 @@ export default class Minute extends PureComponent {
                             &nbsp;分钟&nbsp;
                         </List.Item>
                         <List.Item>
-                            <Radio value="beginInterval"></Radio>
+                            <Radio value="beginInterval" />
                             从第&nbsp;
                             <InputNumber
                                 min={0}

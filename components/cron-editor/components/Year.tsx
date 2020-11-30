@@ -3,12 +3,17 @@
  * 作者：宋鑫鑫
  * 日期：2019.11.04
  */
+import { InputNumber, List, message, Radio } from 'antd'
 import React, { PureComponent } from 'react'
-import { Radio, InputNumber, message, Col, List } from 'antd'
-const { Group } = Radio
 import { isNumber } from '../utils/index'
+const { Group } = Radio
 
-export default class Year extends PureComponent {
+interface YearIProps {
+    year: Record<string, any>
+    onChange: (state: object) => void
+}
+
+export default class Year extends PureComponent<YearIProps, any> {
     changeParams(type, value) {
         const state = { ...this.props.year }
         state[type] = value

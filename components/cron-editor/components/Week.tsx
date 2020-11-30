@@ -8,7 +8,12 @@ import React, { PureComponent } from 'react'
 import { isNumber } from '../utils/index'
 const { Group } = Radio
 
-export default class Week extends PureComponent {
+interface WeekIProps {
+    week: Record<string, any>
+    onChange: (state: object) => void
+}
+
+export default class Week extends PureComponent<WeekIProps, any> {
     weekOptions = [
         {
             label: '星期日',
@@ -119,7 +124,7 @@ export default class Week extends PureComponent {
                             </Select>
                         </List.Item>
                         <List.Item>
-                            <Radio value="beginInterval"></Radio>第{' '}
+                            <Radio value="beginInterval" />第{' '}
                             <InputNumber
                                 min={1}
                                 max={4}
@@ -152,7 +157,7 @@ export default class Week extends PureComponent {
                             </Select>
                         </List.Item>
                         <List.Item style={{ marginBottom: 5 }}>
-                            <Radio value="last"></Radio>
+                            <Radio value="last" />
                             本月最后一个
                             <Select
                                 style={{ width: 80 }}

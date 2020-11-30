@@ -7,7 +7,13 @@ import { InputNumber, List, message, Radio, Select } from 'antd'
 import React, { PureComponent } from 'react'
 import { isNumber } from '../utils/index'
 const { Group } = Radio
-export default class Second extends PureComponent {
+
+interface SecondIProps {
+    second: Record<string, any>
+    onChange: (state: object) => void
+}
+export default class Second extends PureComponent<SecondIProps, any> {
+    secondOptions: any[]
     constructor(props) {
         super(props)
         this.formatSecondOptions()
@@ -117,7 +123,7 @@ export default class Second extends PureComponent {
                             &nbsp;秒&nbsp;
                         </List.Item>
                         <List.Item>
-                            <Radio value="beginInterval"></Radio>
+                            <Radio value="beginInterval" />
                             从第 &nbsp;
                             <InputNumber
                                 min={0}

@@ -8,7 +8,13 @@ import React, { PureComponent } from 'react'
 import { isNumber } from '../utils/index'
 const { Group } = Radio
 
-export default class Month extends PureComponent {
+interface MonthIProps {
+    month: Record<string, any>
+    onChange: (state: object) => void
+}
+
+export default class Month extends PureComponent<MonthIProps, any> {
+    monthOptions: any[]
     constructor(props) {
         super(props)
         this.formatMonthOptions()
@@ -115,7 +121,7 @@ export default class Month extends PureComponent {
                             &nbsp;月&nbsp;
                         </List.Item>
                         <List.Item>
-                            <Radio value="beginInterval"></Radio>
+                            <Radio value="beginInterval" />
                             从
                             <InputNumber
                                 min={1}
@@ -140,7 +146,7 @@ export default class Month extends PureComponent {
                                 max={12}
                                 defaultValue={1}
                                 placeholder="月"
-                                endYear={beginEvery}
+                                value={beginEvery}
                                 size="small"
                                 formatter={value => value.toString().replace(/[^\d\.]/g, '')}
                                 onChange={value => {

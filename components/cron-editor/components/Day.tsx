@@ -8,7 +8,13 @@ import React, { PureComponent } from 'react'
 import { isNumber } from '../utils/index'
 const { Group } = Radio
 
-export default class Day extends PureComponent {
+interface DayIProps {
+    day: Record<string, any>
+    onChange: (state: object) => void
+}
+
+export default class Day extends PureComponent<DayIProps, any> {
+    dayOptions: any[]
     constructor(props) {
         super(props)
         this.formatDayOptions()
@@ -119,7 +125,7 @@ export default class Day extends PureComponent {
                             &nbsp;日&nbsp;
                         </List.Item>
                         <List.Item>
-                            <Radio value="beginInterval"></Radio>从{' '}
+                            <Radio value="beginInterval" />从{' '}
                             <InputNumber
                                 min={1}
                                 defaultValue={1}
@@ -156,7 +162,7 @@ export default class Day extends PureComponent {
                             &nbsp;天执行一次
                         </List.Item>
                         <List.Item style={{ marginBottom: 5 }}>
-                            <Radio value="closeWorkDay"></Radio>
+                            <Radio value="closeWorkDay" />
                             每月{' '}
                             <InputNumber
                                 min={1}
