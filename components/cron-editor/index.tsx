@@ -368,7 +368,7 @@ class Cron extends PureComponent<ICronProps, ICronState> {
         const crontab = this.format()
         console.log('crontab', crontab)
         onChange && onChange(crontab)
-        if (!showRunTime) return // 既然不需要，那就不算了
+        if (!showRunTime) return // 是否计算最近几次周期运行时间
         let tempArr = []
         const weekCron = crontab.split(' ')[5]
         try {
@@ -441,15 +441,13 @@ class Cron extends PureComponent<ICronProps, ICronState> {
                     <Day
                         {...this.state}
                         onChange={state => {
-                            if (week.type === '?' && state.type === '?') {
+                            if (week.type === '?' && state['type'] === '?') {
                                 const obj = { ...week, type: '*' }
-                                console.log('obj', obj)
                                 this.setState({
                                     week: obj
                                 })
                             } else {
                                 const obj = { ...week, type: '?' }
-                                console.log('obj', obj)
                                 this.setState({
                                     week: obj
                                 })
@@ -462,15 +460,13 @@ class Cron extends PureComponent<ICronProps, ICronState> {
                     <Week
                         {...this.state}
                         onChange={state => {
-                            if (day.type === '?' && state.type === '?') {
+                            if (day.type === '?' && state['type'] === '?') {
                                 const obj = { ...week, type: '*' }
-                                console.log('obj', obj)
                                 this.setState({
                                     day: obj
                                 })
                             } else {
                                 const obj = { ...week, type: '?' }
-                                console.log('obj', obj)
                                 this.setState({
                                     day: obj
                                 })
