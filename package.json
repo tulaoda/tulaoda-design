@@ -14,6 +14,7 @@
     "build": " webpack --config webpack.build.js -p --bail && npm run tsc",
     "start": "webpack-dev-server --open chrome --config webpack.dev.js --mode development",
     "tsc": "tsc components/*.ts components/**/*.tsx  --allowSyntheticDefaultImports true -d --lib es6,dom --experimentalDecorators true -t es6 --moduleResolution node --jsx react --outDir es --allowJs true",
+    "build:types": "tsc -p tsconfig.build.json && cpr lib esm",
     "commit": "git-cz"
   },
   "repository": {
