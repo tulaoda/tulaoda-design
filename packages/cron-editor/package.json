@@ -1,0 +1,53 @@
+{
+  "name": "@ant-design/cron-editor",
+  "version": "1.0.0-beta.0",
+  "description": "基于antd、react的crontab表达式生成工具",
+  "keywords": [
+    "cron",
+    "js"
+  ],
+  "author": {
+    "name": "tulaoda",
+    "email": "coderaxin@163.com"
+  },
+  "sideEffects": [
+    "*.less"
+  ],
+  "files": [
+    "lib",
+    "es",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@code.mlamp.cn:frontend/components/cron-editor.git"
+  },
+  "homepage": "http://fe.mlamp.cn:3004/app/cron-mlamp-editor",
+  "bugs": {
+    "url": "https://code.mlamp.cn/frontend/components/cron-editor/issues"
+  },
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "lib/index.d.ts",
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 11"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "cron-parser": "^2.13.0",
+    "moment": "^2.19.1",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/lodash.tonumber": "^4.0.6"
+  },
+  "peerDependencies": {
+    "antd": "4.x",
+    "react": "^16.x"
+  }
+}
