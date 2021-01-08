@@ -10,13 +10,13 @@ nav:
 
 ## 安装
 
-当前 TulaodaDesign 每一个组件都是一个独立的包，你需要在你的项目中安装对应的 npm 包并使用。
+当前 Tulaoda Design 每一个组件都是一个独立的包，你需要在你的项目中安装对应的 npm 包并使用。
 
 ```shell
 $ npm i @ant-design/pro-table --save
 ```
 
-当前 TulaodaDesign 提供了如下组件可直接使用：
+当前 Tulaoda Design 提供了如下组件可直接使用：
 
 - `npm i @ant-design/pro-form --save`
 - `npm i @ant-design/pro-layout --save`

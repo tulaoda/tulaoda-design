@@ -1,5 +1,5 @@
 <!-- ---
-title: TulaodaDesign - 组件总览
+title: Tulaoda Design - 组件总览
 order: 0
 group:
   path: /
@@ -10,7 +10,7 @@ nav:
 
 # 架构设计
 
-TulaodaDesign 是为了降低在中后台实现 CRUD 的成本而研发，其思路是减少必要的状态维护，更专注于业务。
+Tulaoda Design 是为了降低在中后台实现 CRUD 的成本而研发，其思路是减少必要的状态维护，更专注于业务。
 
 - [ProLayout](/components/layout) 解决布局的问题，提供开箱即用的菜单和面包屑功能
 - [ProTable](/components/table) 解决表格问题，抽象网络请求和表格格式化

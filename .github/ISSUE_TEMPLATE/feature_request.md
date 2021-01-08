@@ -1,6 +1,6 @@
 ---
 name: '功能需求 ✨'
-about: 对 TulaodaDesign  的需求或建议
+about: 对 Tulaoda Design  的需求或建议
 title: '👑 [需求]'
 labels: '👑Feature Request'
 assignees: ''

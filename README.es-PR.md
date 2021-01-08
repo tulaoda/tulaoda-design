@@ -1,6 +1,6 @@
 [English](./README.en-US.md) | [简体中文](./README.zh-CN.md) | Español
 
-# TulaodaDesign
+# Tulaoda Design
 
 Los componentes de la Serie Pro se colocan aquí para soportar componentes de servicio pesado.
 
@@ -19,7 +19,7 @@ Los componentes de la Serie Pro se colocan aquí para soportar componentes de se
 
 Cualquier tipo de contribución es bienvenida, aquí hay algunos ejemplos de cómo puede contribuir a este proyecto 😃 ：
 
-- Utilice Ant Design Pro, umi y TulaodaDesign en su trabajo diario.
+- Utilice Ant Design Pro, umi y Tulaoda Design en su trabajo diario.
 - Envie [problemas](https://github.com/ant-design/pro-components/issues) para informar errores o hacer preguntas
 - Proponer [solicitudes de extracción](https://github.com/ant-design/pro-components/pulls) para mejorar nuestro código.
 

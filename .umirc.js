@@ -25,9 +25,9 @@ const tailPkgList = pkgList
 const isProduction = process.env.NODE_ENV === 'production';
 
 export default {
-  title: 'TulaodaDesign',
+  title: 'Tulaoda Design',
   mode: 'site',
-  logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
+  logo: '/tulaoda-design-logo.png',
   extraBabelPlugins: [
     [
       'import',
@@ -41,7 +41,7 @@ export default {
   metas: [
     {
       property: 'og:site_name',
-      content: 'TulaodaDesign',
+      content: 'Tulaoda Design',
     },
     {
       'data-rh': 'keywords',
