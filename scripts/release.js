@@ -113,7 +113,7 @@ async function release() {
   logStep(`publish packages: ${chalk.blue(pkgs.join(', '))}`);
 
   pkgs.forEach((pkg, index) => {
-    const pkgPath = join(cwd, 'packages', pkg.replace('pro-', ''));
+    const pkgPath = join(cwd, 'packages', pkg.replace('rc-', ''));
     const { name, version } = require(join(pkgPath, 'package.json'));
     const isNext = isNextVersion(version);
     let isPackageExist = null;

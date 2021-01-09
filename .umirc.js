@@ -133,7 +133,7 @@ export default {
         children: ['components.md'],
       },
       {
-        title: '数据录入',
+        title: '工具',
         children: ['cron-editor'],
       },
     ],
