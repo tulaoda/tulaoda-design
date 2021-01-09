@@ -1,6 +1,6 @@
 {
   "name": "@tulaoda/rc-cron-editor",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.1",
   "description": "基于antd、react的crontab表达式生成工具",
   "keywords": [
     "cron",
