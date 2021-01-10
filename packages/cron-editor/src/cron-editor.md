@@ -1,5 +1,5 @@
 ---
-title: cron-editor-react
+title: rc-cron-editor
 order: 1
 group:
   path: /
@@ -8,7 +8,9 @@ nav:
   path: /components
 ---
 
-## cron-editor-react
+## rc-cron-editor
+
+<code src="./demos/index.tsx" background="#f5f5f5" height="500px" />
 
 cron 表达式生成工具
 
@@ -52,13 +54,13 @@ export default () => <img src={Groupjpeg} width="800" />;
 ## Installation
 
 ```shell
-npm i @tulaoda/cron-editor-react --save
+yarn add @tulaoda/rc-cron-editor
 ```
 
 ## Usage
 
 ```javascript
-import CronEditor from '@tulaoda/cron-editor-react';
+import CronEditor from '@tulaoda/rc-cron-editor';
 
 const handleCronChange = (cronExpression) => {
   console.log(cronExpression); //0 0 0 * * ?

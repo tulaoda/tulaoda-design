@@ -3499,7 +3499,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/classnames@^2.2.10", "@types/classnames@^2.2.7":
+"@types/classnames@^2.2.7":
   version "2.2.11"
   resolved "https://registry.npm.taobao.org/@types/classnames/download/@types/classnames-2.2.11.tgz#2521cc86f69d15c5b90664e4829d84566052c1cf"
   integrity sha1-JSHMhvadFcW5BmTkgp2EVmBSwc8=
@@ -3736,7 +3736,7 @@
   dependencies:
     "@types/lodash" "*"
 
-"@types/lodash.tonumber@^4.0.3", "@types/lodash.tonumber@^4.0.6":
+"@types/lodash.tonumber@^4.0.3":
   version "4.0.6"
   resolved "https://registry.npm.taobao.org/@types/lodash.tonumber/download/@types/lodash.tonumber-4.0.6.tgz#9f0f4b851ac037ecfdfda8acad5cfbcca832bf96"
   integrity sha1-nw9LhRrAN+z9/aisrVz7zKgyv5Y=

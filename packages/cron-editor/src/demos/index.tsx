@@ -1,7 +1,18 @@
-import CronEditor from '@tulaoda/cron-editor';
+import CronEditor from '@tulaoda/rc-cron-editor';
 
-const handleCronChange = (cronExpression) => {
-  console.log(cronExpression); //0 0 0 * * ?
+const Cron = () => {
+  const handleCronChange = (cronExpression) => {
+    console.log(cronExpression);
+  };
+
+  return (
+    <CronEditor
+      onChange={handleCronChange}
+      tabType="card"
+      showCrontab={false}
+      value={'0 0 0 * * ?'}
+    />
+  );
 };
 
-<CronEditor onChange={handleCronChange} tabType="card" showCrontab={false} value={'0 0 0 * * ?'} />;
+export default Cron;
