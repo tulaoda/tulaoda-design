@@ -44,12 +44,13 @@ CRON 表达式是一个字符串，包含五个到七个由空格分隔的字段
 | Day of week  | 是       | 0–6 or SUN–SAT  | \*,-?L#      | ?L#只有部分软件实现了  |
 | Year         | 否       | 1970–2099       | \*,-         | 标准实现不支持此字段。 |
 
-<!--
+## cron 组成与 type 类型标识与 state 划分
+
 ```jsx | inline
 import React from 'react';
-import Groupjpeg from '../assets/cron-screenshot.png';
+import Groupjpeg from '../assets/cron组成与type类型标识与state划分.png';
 export default () => <img src={Groupjpeg} width="800" />;
-``` -->
+```
 
 ## Installation
 
@@ -66,7 +67,7 @@ const handleCronChange = (cronExpression) => {
   console.log(cronExpression); //0 0 0 * * ?
 };
 
-<CronEditor onChange={handleCronChange} tabType="card" showCrontab={false} value={'0 0 0 * * ?'} />;
+<CronEditor onChange={handleCronChange} tabType="card" showTime value={'0 0 0 * * ?'} />;
 ```
 
 ## API
