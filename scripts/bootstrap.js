@@ -35,7 +35,7 @@ const { yParser } = require('@umijs/utils');
         ],
         license: 'MIT',
         bugs: 'http://github.com/umijs/plugins/issues',
-        homepage: `https://github.com/ant-design/pro-components/tree/master/packages/${shortName}#readme`,
+        homepage: `https://github.com/tulaoda/tulaoda-design/tree/master/packages/${shortName}#readme`,
         peerDependencies: {
           umi: '3.x',
         },

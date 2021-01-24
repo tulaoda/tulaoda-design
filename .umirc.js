@@ -81,7 +81,7 @@ export default {
     null,
     {
       title: 'GitHub',
-      path: 'https://github.com/ant-design/pro-components',
+      path: 'https://github.com/tulaoda/tulaoda-design',
     },
   ],
   analytics: isProduction
