@@ -12,15 +12,4 @@ nav:
 
 Tulaoda Design 是为了降低在中后台实现 CRUD 的成本而研发，其思路是减少必要的状态维护，更专注于业务。
 
-- [CronEditor](/components/cron-editor) 解决布局的问题，提供开箱即用的菜单和面包屑功能
-- [ProTable](/components/table) 解决表格问题，抽象网络请求和表格格式化
-- [ProForm](/components/form) 解决表单问题，预设常见布局和行为
-- [ProCard](/components/card) 提供卡片切分以及栅格布局能力
-- [ProDescriptions](/components/descriptions) 提供与 table 使用同等配置的能力
-- [ProSkeleton](/components/skeleton) 页面级别的骨架屏
-
-## CRUD
-
-ProTable，ProDescriptions，ProForm 都是基于 ProField 来进行封装。ProTable 和 ProDescriptions 根据 valueType 来渲染不同的 ProField，Form 则是通过不同的 FormField 来实现封装。
-
-使用同样的底层实现为 ProTable，ProDescriptions，ProForm 打通带来了便利。ProForm 可以很方便的实现只读模式，ProTable 可以快速实现查询表单和可编辑表格。ProDescriptions 可以实现节点编辑，以下有个例子可以切换三个组件。
+- [CronEditor](/components/cron-editor) 提高 Cron 表达式生成工具,可计算周期生成时间
