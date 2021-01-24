@@ -6,12 +6,7 @@ const Cron = () => {
   };
 
   return (
-    <CronEditor
-      onChange={handleCronChange}
-      tabType="card"
-      showCrontab={false}
-      value={'0 0 0 * * ?'}
-    />
+    <CronEditor onChange={handleCronChange} tabType="card" showRunTime value={'0 0 0 * * ?'} />
   );
 };
 
