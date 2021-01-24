@@ -48,7 +48,7 @@ CRON 表达式是一个字符串，包含五个到七个由空格分隔的字段
 
 ```jsx | inline
 import React from 'react';
-import Groupjpeg from '../assets/cron组成与type类型标识与state划分.png';
+import Groupjpeg from './assets/cron组成与type类型标识与state划分.png';
 export default () => <img src={Groupjpeg} width="800" />;
 ```
 
