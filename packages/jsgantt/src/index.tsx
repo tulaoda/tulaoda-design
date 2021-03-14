@@ -2,8 +2,6 @@ import * as React from 'react';
 import * as JSGantt from './lib';
 import './jsgantt.less';
 
-import { formatData } from './lib/utils/formatData';
-
 export type Props = {
   data: any[];
   options: any;
@@ -11,7 +9,6 @@ export type Props = {
   onChange: (tasks, row, column) => void;
 };
 
-export { formatData };
 export default class JSGanttComponent extends React.Component<Props> {
   public id = `react-gantt-editor${Math.floor(Math.random() * 1000000)}`;
   public editor: any;
