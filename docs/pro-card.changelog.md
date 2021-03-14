@@ -1,5 +1,5 @@
 ---
-title: rc-cron-editor - 更新日志
+title: 具体组件更新日志
 nav:
   title: 更新日志
   path: /changelog
@@ -12,6 +12,12 @@ group:
 
 ## @tulaoda/rc-cron-editor@1.0.0-beta.1
 
-`2020-12-08`
+### 1.0.0-beta.1 (2020-12-08)
 
 - 💥 feat(cron-editor): init
+
+## @tulaoda/rc-jsgantt@1.0.0
+
+### 1.0.0 (2021-03-14)
+
+- 💥 feat(jsgantt): init

@@ -37,6 +37,8 @@ footer: Open-source MIT Licensed | Copyright © 2017-present
 | 组件 | 下载量 | 版本 |
 | --- | --- | --- |
 | rc-cron-editor | [![layout](https://img.shields.io/npm/dw/@tulaoda/rc-cron-editor.svg)](https://www.npmjs.com/package/@tulaoda/rc-cron-editor) | [![npm package](https://img.shields.io/npm/v/@tulaoda/rc-cron-editor.svg?style=flat-square?style=flat-square)](https://www.npmjs.com/package/@tulaoda/rc-cron-editor) |
+| rc-jsgantt | [![layout](https://img.shields.io/npm/dw/@tulaoda/rc-jsgantt.svg)](https://www.npmjs.com/package/@tulaoda/rc-jsgantt) | [![npm package](https://img.shields.io/npm/v/@tulaoda/rc-jsgantt.svg?style=flat-square?style=flat-square)](https://www.npmjs.com/package/@tulaoda/rc-jsgantt) |
+
 ## 🖥 浏览器兼容性
 
 - 现代浏览器和 Internet Explorer 11 (with [polyfills](https://stackoverflow.com/questions/57020976/polyfills-in-2019-for-ie11))
