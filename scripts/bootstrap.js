@@ -28,13 +28,10 @@ const { yParser } = require('@umijs/utils');
           url: 'https://github.com/tulaoda/tulaoda-design',
         },
         browserslist: ['last 2 versions', 'Firefox ESR', '> 1%', 'ie >= 11'],
-        keywords: ['antd', 'admin', 'ant-design', 'ant-design-pro'],
-        authors: [
-          'chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)',
-          'chenshuai2144 <qixian.cs@outlook.com> (https://github.com/chenshuai2144)',
-        ],
+        keywords: ['antd', 'react'],
+        authors: ['tulaoda <coderaxin@163.com> (https://github.com/tulaoda)'],
         license: 'MIT',
-        bugs: 'http://github.com/umijs/plugins/issues',
+        bugs: 'http://github.com/tulaoda/tulaoda-design/issues',
         homepage: `https://github.com/tulaoda/tulaoda-design/tree/master/packages/${shortName}#readme`,
         peerDependencies: {
           umi: '3.x',
