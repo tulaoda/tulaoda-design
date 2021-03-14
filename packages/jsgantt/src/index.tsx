@@ -1,8 +1,8 @@
 import * as React from 'react';
-import * as JSGantt from './jsgantt';
+import * as JSGantt from './lib';
 import './jsgantt.less';
 
-import { formatData } from './jsgantt/lib/formatData';
+import { formatData } from './lib/utils/formatData';
 
 export type Props = {
   data: any[];
