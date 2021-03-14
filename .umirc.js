@@ -134,7 +134,7 @@ export default {
       },
       {
         title: '工具',
-        children: ['cron-editor'],
+        children: ['cron-editor', 'jsgantt'],
       },
     ],
   },

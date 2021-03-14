@@ -1,5 +1,5 @@
 ---
-title: rc-cron-editor
+title: cron-editor
 order: 1
 group:
   path: /

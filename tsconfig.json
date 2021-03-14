@@ -13,7 +13,8 @@
     "declaration": true,
     "skipLibCheck": true,
     "paths": {
-      "@tulaoda/rc-cron-editor": ["./packages/cron-editor/src/index.tsx"]
+      "@tulaoda/rc-cron-editor": ["./packages/cron-editor/src/index.tsx"],
+      "@tulaoda/rc-jsgantt": ["./packages/jsgantt/src/index.tsx"]
     }
   },
   "include": [
