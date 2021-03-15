@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as JSGantt from './lib/index';
+import * as JSGantt from './components';
 import './jsgantt.less';
 
 export type Props = {
