@@ -129,11 +129,11 @@ export default {
   menus: {
     '/components': [
       {
-        title: '架构设计',
+        title: '总览',
         children: ['components.md'],
       },
       {
-        title: '工具',
+        title: '组件列表',
         children: ['cron-editor', 'jsgantt'],
       },
     ],
